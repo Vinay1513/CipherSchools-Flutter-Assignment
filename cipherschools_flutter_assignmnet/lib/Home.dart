@@ -95,7 +95,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: 80,
                   width: 300,
                   child: Row(
-                    children: [Image.asset('assets/images/picred.jpg')],
+                    children: [Image.asset('assets/images/pic.jpg')],
                   ),
                 )
               ],
