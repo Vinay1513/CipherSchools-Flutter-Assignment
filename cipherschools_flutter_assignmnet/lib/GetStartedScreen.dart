@@ -24,14 +24,14 @@ class _GetStartedScreenState extends State<GetStartedScreen> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
-                    SizedBox(
+                    const SizedBox(
                       width: 20,
                     ),
                     Container(
                         height: 100,
                         width: 100,
                         child: Image.asset('assets/images/Vector.png')),
-                    Spacer(),
+                    const Spacer(),
                     Image.asset('assets/images/recordcircle.png')
                   ],
                 ),
@@ -48,11 +48,11 @@ class _GetStartedScreenState extends State<GetStartedScreen> {
                           style: GoogleFonts.aBeeZee(
                             fontWeight: FontWeight.w400,
                             fontSize: 40,
-                            color: Color.fromRGBO(255, 255, 255, 1),
+                            color: const Color.fromRGBO(255, 255, 255, 1),
                           ),
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 20,
                       ),
                       Center(
@@ -92,7 +92,7 @@ class _GetStartedScreenState extends State<GetStartedScreen> {
                     ),
                   ],
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 10,
                 ),
                 Expanded(
@@ -108,7 +108,7 @@ class _GetStartedScreenState extends State<GetStartedScreen> {
                             style: GoogleFonts.aBeeZee(
                               fontSize: 19,
                               fontWeight: FontWeight.w400,
-                              color: Color.fromRGBO(255, 255, 255, 1),
+                              color: const Color.fromRGBO(255, 255, 255, 1),
                             )),
                       )
                     ],
@@ -121,10 +121,10 @@ class _GetStartedScreenState extends State<GetStartedScreen> {
                     width: 134,
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
-                        color: Color.fromRGBO(0, 0, 0, 1)),
+                        color: const Color.fromRGBO(0, 0, 0, 1)),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 10,
                 ),
               ],

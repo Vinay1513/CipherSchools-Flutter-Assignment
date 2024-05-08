@@ -14,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       body: Container(
         height: double.infinity,
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           gradient: LinearGradient(
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
@@ -28,7 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         child: Column(
           children: [
-            SizedBox(
+            const SizedBox(
               height: 40,
             ),
             Row(
@@ -40,11 +40,11 @@ class _HomeScreenState extends State<HomeScreen> {
                   child: Row(
                     children: [
                       Image.asset('assets/images/Avatar.png'),
-                      SizedBox(
+                      const SizedBox(
                         width: 100,
                       ),
                       Image.asset('assets/images/Pill.png'),
-                      SizedBox(
+                      const SizedBox(
                         width: 50,
                       ),
                       Image.asset('assets/images/notifiaction.png')
@@ -53,7 +53,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 )
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 50,
             ),
             Container(
@@ -63,12 +63,12 @@ class _HomeScreenState extends State<HomeScreen> {
                 'Account Balance',
                 style: GoogleFonts.inter(
                   fontSize: 18,
-                  color: Color.fromRGBO(145, 145, 159, 1),
+                  color: const Color.fromRGBO(145, 145, 159, 1),
                   fontWeight: FontWeight.w600,
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 30,
             ),
             Container(
@@ -80,13 +80,13 @@ class _HomeScreenState extends State<HomeScreen> {
                   '₹38000',
                   style: GoogleFonts.inter(
                     fontSize: 40,
-                    color: Color.fromRGBO(22, 23, 25, 1),
+                    color: const Color.fromRGBO(22, 23, 25, 1),
                     fontWeight: FontWeight.w600,
                   ),
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 30,
             ),
             Row(

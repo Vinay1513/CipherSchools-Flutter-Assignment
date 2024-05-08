@@ -19,7 +19,7 @@ class _IncomeScreenState extends State<IncomeScreen> {
     return Scaffold(
         body: Container(
             height: double.infinity,
-            color: Color.fromRGBO(123, 97, 255, 1),
+            color: const Color.fromRGBO(123, 97, 255, 1),
             child: Column(
               children: [
                 Padding(
@@ -27,12 +27,12 @@ class _IncomeScreenState extends State<IncomeScreen> {
                   child: Row(
                     children: [
                       IconButton(
-                        icon: Icon(Icons.arrow_back, color: Colors.white),
+                        icon: const Icon(Icons.arrow_back, color: Colors.white),
                         onPressed: () {
                           Navigator.pop(context);
                         },
                       ),
-                      SizedBox(width: 20.0),
+                      const SizedBox(width: 20.0),
                       Text(
                         'Expense',
                         style: GoogleFonts.inter(
@@ -44,7 +44,7 @@ class _IncomeScreenState extends State<IncomeScreen> {
                     ],
                   ),
                 ),
-                SizedBox(height: 228.0),
+                const SizedBox(height: 228.0),
                 Column(
                   children: [
                     Row(
@@ -62,7 +62,7 @@ class _IncomeScreenState extends State<IncomeScreen> {
                         ),
                       ],
                     ),
-                    SizedBox(height: 20.0),
+                    const SizedBox(height: 20.0),
                     Row(
                       children: [
                         Padding(
@@ -111,7 +111,7 @@ class _IncomeScreenState extends State<IncomeScreen> {
                     child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          SizedBox(height: 20.0),
+                          const SizedBox(height: 20.0),
                           Container(
                             height: 56,
                             width: 343,
@@ -140,7 +140,7 @@ class _IncomeScreenState extends State<IncomeScreen> {
                               ),
                             ),
                           ),
-                          SizedBox(height: 20.0),
+                          const SizedBox(height: 20.0),
                           Container(
                             height: 56,
                             width: 343,
@@ -154,12 +154,14 @@ class _IncomeScreenState extends State<IncomeScreen> {
                               padding: const EdgeInsets.only(
                                   top: 8.0, left: 8, right: 10),
                               child: TextFormField(
-                                style: TextStyle(color: Colors.black),
+                                style: const TextStyle(color: Colors.black),
                                 decoration: InputDecoration(
                                   hintText: 'Description',
-                                  hintStyle: TextStyle(color: Colors.grey),
+                                  hintStyle:
+                                      const TextStyle(color: Colors.grey),
                                   focusedBorder: UnderlineInputBorder(
-                                    borderSide: BorderSide(color: Colors.black),
+                                    borderSide:
+                                        const BorderSide(color: Colors.black),
                                     borderRadius: BorderRadius.circular(
                                         16.0), // Set border radius here
                                   ),
@@ -167,7 +169,7 @@ class _IncomeScreenState extends State<IncomeScreen> {
                               ),
                             ),
                           ),
-                          SizedBox(height: 20.0),
+                          const SizedBox(height: 20.0),
                           Container(
                             height: 56,
                             width: 343,
@@ -196,12 +198,12 @@ class _IncomeScreenState extends State<IncomeScreen> {
                               ),
                             ),
                           ),
-                          SizedBox(
+                          const SizedBox(
                             height: 10,
                           ),
                           Container(
                             decoration: BoxDecoration(
-                              color: Color.fromRGBO(127, 61, 255, 1),
+                              color: const Color.fromRGBO(127, 61, 255, 1),
                               borderRadius: BorderRadius.circular(16),
                             ),
                             height: 56,
@@ -217,7 +219,7 @@ class _IncomeScreenState extends State<IncomeScreen> {
                               ),
                             ),
                           ),
-                          SizedBox(
+                          const SizedBox(
                             height: 10,
                           ),
                           Padding(
@@ -227,7 +229,7 @@ class _IncomeScreenState extends State<IncomeScreen> {
                               width: 134,
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(10),
-                                  color: Color.fromRGBO(0, 0, 0, 1)),
+                                  color: const Color.fromRGBO(0, 0, 0, 1)),
                             ),
                           ),
                         ]),

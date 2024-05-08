@@ -18,11 +18,11 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
 
     Timer(
-      Duration(seconds: 3),
+      const Duration(seconds: 3),
       () {
         Navigator.pushReplacement(
           context,
-          MaterialPageRoute(builder: (context) => GetStartedScreen()),
+          MaterialPageRoute(builder: (context) => const GetStartedScreen()),
         );
       },
     );
@@ -45,13 +45,13 @@ class _SplashScreenState extends State<SplashScreen> {
               ],
             ),
             const SizedBox(height: 80),
-            Container(
+            SizedBox(
               height: 100,
               width: 100,
               child: Image.asset('assets/images/Vector.png'),
             ),
             const SizedBox(height: 20),
-            Container(
+            SizedBox(
               height: 43,
               width: 234,
               child: Image.asset('assets/images/CipherX.png'),

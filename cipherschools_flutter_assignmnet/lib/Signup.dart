@@ -183,9 +183,10 @@ class _SignupFormState extends State<SignupForm> {
                                 borderRadius: BorderRadius.circular(6.0),
                                 border: Border.all(
                                     width: 4.0,
-                                    color: Color.fromRGBO(127, 61, 255, 1)),
+                                    color:
+                                        const Color.fromRGBO(127, 61, 255, 1)),
                                 color: _isChecked!
-                                    ? Color.fromRGBO(127, 61, 255, 1)
+                                    ? const Color.fromRGBO(127, 61, 255, 1)
                                     : Colors.transparent,
                               ),
                               child: _isChecked!
@@ -197,7 +198,7 @@ class _SignupFormState extends State<SignupForm> {
                                   : null,
                             ),
                           ),
-                          SizedBox(
+                          const SizedBox(
                             width: 20,
                           ),
                           Container(
@@ -230,7 +231,7 @@ class _SignupFormState extends State<SignupForm> {
                           ),
                         ],
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 4,
                       ),
                       Padding(
@@ -239,7 +240,7 @@ class _SignupFormState extends State<SignupForm> {
                           alignment: Alignment.center,
                           child: Container(
                             decoration: BoxDecoration(
-                              color: Color.fromRGBO(127, 61, 255, 1),
+                              color: const Color.fromRGBO(127, 61, 255, 1),
                               borderRadius: BorderRadius.circular(16),
                             ),
                             height: 56,
@@ -257,11 +258,11 @@ class _SignupFormState extends State<SignupForm> {
                           ),
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 10,
                       ),
                       Padding(
-                          padding: EdgeInsets.only(left: 136),
+                          padding: const EdgeInsets.only(left: 136),
                           child: Container(
                             height: 18,
                             width: 100,
@@ -270,10 +271,11 @@ class _SignupFormState extends State<SignupForm> {
                                   style: GoogleFonts.inter(
                                       fontSize: 18,
                                       fontWeight: FontWeight.w700,
-                                      color: Color.fromRGBO(145, 145, 159, 1))),
+                                      color: const Color.fromRGBO(
+                                          145, 145, 159, 1))),
                             ),
                           )),
-                      SizedBox(
+                      const SizedBox(
                         height: 20,
                       ),
                       Container(
@@ -287,7 +289,7 @@ class _SignupFormState extends State<SignupForm> {
                             )),
                         child: Image.asset('assets/images/google.png'),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 10,
                       ),
                       Padding(
